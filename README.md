@@ -1,39 +1,70 @@
-# Project-Glucocard🧬
-●**Automated In-Silico Pipeline for Natural Alpha-Glucosidase Inhibitor Discovery**
+# 🧬 Project GlucoCard  
+### Computational Drug Screening & Analysis Pipeline
 
-## 📍Overview
-Glucocard is a computational drug discovery framework developed to identify natural alternatives for Type 2 Diabetes management. The project integrates Python-based chemical screening with structural bioinformatics to evaluate the efficacy of Berberine against the human **3W37** enzyme.
+---
 
-## ~ Pipeline Workflow
-1. **Data Acquisition:** Automated retrieval of chemical data via the `PubChemPy` API.
-2. **Lipinski Screening:** Evaluating drug-likeness (MW, H-bond donors/acceptors).
-3. **Bioavailability:** Utilizing the **BOILED-Egg model** for GI absorption prediction.
-4. **Docking Analysis:** Comparative binding affinity analysis (Berberine vs. Acarbose).
+## 📍 Overview
+GlucoCard is a Python-based computational pipeline designed to explore drug screening and analysis for potential Type-2 Diabetes inhibitors.
 
-## 🌐 Key Findings
-| Molecule | Binding Energy (ΔG) | Status |
-| **Berberine** | **-8.4 kcal/mol** | **Potent Inhibitor** |
-| **Acarbose** | **-6.2 kcal/mol** | Standard Drug |
+The project integrates rule-based evaluation with real molecular data to understand how computational approaches can assist in early-stage drug discovery.
 
-## 📝 Project Results
+---
 
-### **Summary of Analysis**
-The automated pipeline successfully screened potential inhibitors for Alpha-glucosidase. The lead candidate, **Berberine**, demonstrated superior drug-likeness compared to traditional controls.
-[Click here to view the raw execution output](./output_log.txt)
+## 🫧 Pipeline Workflow
 
-**Final Data Points:**
-* **Target Protein:** 3W37 (Alpha-glucosidase)
-* **Lead Molecule:** Berberine
-* **Best Binding Score:** -8.4 kcal/mol
-* **Lipinski's Rule of 5:** 100% Compliance
+### 🔹 Data Acquisition
+- Automated retrieval of molecular data using PubChemPy  
+- Extraction of molecular weight, H-bond donors, and acceptors  
 
-  
-### **Key Conclusion**
-Based on the binding energy of **-8.4 kcal/mol**, Berberine shows a significantly higher affinity for the target enzyme (Alpha-glucosidase) than the traditional drug Acarbose. This suggests it has high potential as a natural therapeutic agent for Type-2 Diabetes management.
+### 🔹 Drug-Likeness Screening
+- Applied Lipinski-inspired rules  
+- Evaluated physicochemical suitability of compounds  
 
+### 🔹 Comparative Analysis
+- Compared multiple drug candidates  
+- Generated ranking and recommendations  
 
-##  Tech Stack:
-- **Language:** Python
-- **Database:** PubChem
-- **Analysis:** SwissADME, PDBe, SwissDock
+### 🔹 Bioavailability Concept (Exploratory)
+- Studied BOILED-Egg model using SwissADME  
+- Understood GI absorption and drug-likeness concepts  
 
+---
+
+## 🌐 Case Study Molecules
+- Berberine  
+- Acarbose  
+
+---
+
+## 📝 Key Observations:
+
+- Berberine showed favorable drug-likeness properties  
+- Acarbose exceeded some Lipinski thresholds  
+- Computational screening helps in early filtering of drug candidates
+(./output_log.txt)  
+
+---
+
+##● Note: 
+This project is a **rule-based and exploratory computational model**.  
+Docking and binding affinity analysis were studied conceptually and not fully implemented.
+
+---
+
+## 🧪 Technologies Used
+- Python  
+- PubChemPy  
+- SwissADME (conceptual use)  
+
+---
+
+## 🔮 Future Scope
+- Molecular docking integration (AutoDock Vina)  
+- Machine learning-based prediction models  
+- ADMET property analysis  
+- Expansion to larger compound datasets  
+
+---
+
+## Author
+Thrishitha Reddy
