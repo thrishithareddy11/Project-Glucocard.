@@ -19,7 +19,7 @@ Glucocard is a computational drug discovery framework developed to identify natu
 
 ### **Summary of Analysis**
 The automated pipeline successfully screened potential inhibitors for Alpha-glucosidase. The lead candidate, **Berberine**, demonstrated superior drug-likeness compared to traditional controls.
-[Click here to view the raw execution output](./output.txt)
+[Click here to view the raw execution output](./output.log.txt)
 
 **Final Data Points:**
 * **Target Protein:** 3W37 (Alpha-glucosidase)
