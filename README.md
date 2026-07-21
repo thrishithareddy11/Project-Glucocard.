@@ -1,6 +1,9 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Project-green)
-![Drug%20Discovery](https://img.shields.io/badge/Drug_Discovery-Computational-orange)
+![Drug%20Discovery](https://img.shields.io/badge/Drug_Discovery-Computational-orange)![Pharmaceutical Engineering](https://img.shields.io/badge/Pharmaceutical%20Engineering-Student-blue)
+![PubChemPy](https://img.shields.io/badge/PubChemPy-Data-green)
+![Lipinski Rule](https://img.shields.io/badge/Lipinski-Rule-orange)
+![SwissADME](https://img.shields.io/badge/SwissADME-Analysis-red)
 
 # 🧬 GlucoCard  
 ### Computational Drug Screening & Analysis Pipeline
