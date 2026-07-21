@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Project-green)
+![Drug%20Discovery](https://img.shields.io/badge/Drug_Discovery-Computational-orange)
+
 # 🧬 GlucoCard  
 ### Computational Drug Screening & Analysis Pipeline
 
