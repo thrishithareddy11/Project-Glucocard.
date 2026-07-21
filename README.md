@@ -33,6 +33,15 @@ The project integrates rule-based evaluation with real molecular data to underst
 ## 🌐 Case Study Molecules
 - Berberine  
 - Acarbose  
+## 📸 Project Visuals
+
+### BOILED-Egg Analysis (SwissADME)
+
+![BOILED-Egg](Berberine_Bioavailability_Radar.jpg)
+
+### Target Protein Structure
+
+![Protein](Target_Enzyme_3W37_Structure.jpg)
 
 ---
 
