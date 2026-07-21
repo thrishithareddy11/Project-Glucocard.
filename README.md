@@ -70,3 +70,25 @@ Docking and binding affinity analysis were studied conceptually and not fully im
 
 ## Author
 Thrishitha Reddy
+
+---
+
+## Installation & Usage
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/thrishithareddy11/Project-Glucocard.git
+```
+
+### 2. Install the required package
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the project
+
+```bash
+python Glucocard_discovery.py
+```
