@@ -1,4 +1,4 @@
-# 🧬 Project GlucoCard  
+# 🧬 GlucoCard  
 ### Computational Drug Screening & Analysis Pipeline
 
 ---
